@@ -22,8 +22,16 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "file://E:/git/ClaphamSite/index.html",
+            "url": "file://C:/ClaphamSite/index.html",
             "webRoot": "${workspaceFolder}"
+        },
+        // created by VS Code
+        {
+        "type": "firefox",
+        "request": "launch",
+        "name": "Launch localhost against Firefox",
+        "url": "file://C:/ClaphamSite/index.html",
+        "webRoot": "${workspaceFolder}"
         }
     ]
 }
